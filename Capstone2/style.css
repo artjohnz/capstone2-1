@@ -1,0 +1,94 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+html,body {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	background-image: url(wp7528738.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+}
+
+.container {
+	display: flex;
+	margin: auto;
+	width: 800px;
+	height: 400px;
+	box-shadow: 4px 4px 4px #22ee07;
+}
+
+.login {
+	order: 1;
+	width: 300px;
+	background-color: #eaeaea;
+	text-align: center;
+}
+
+.header h1{
+	margin-top: 50px;
+	margin-bottom: 30px;
+	color: #0c7001;
+	font-size: 35px;
+}
+
+.main input,button {
+	width: 80%;
+	height: 35px;
+	margin-top: 25px;
+	padding-left: 8px;
+	box-sizing: border-box;
+	outline: none;
+	border:1px solid #017013;
+	color: #01700e;
+
+}
+
+.main button {
+	padding: 0;
+	font-size: 15px;
+	background-color: white;
+}
+
+.main button:hover, input:hover {
+	box-shadow: 3px 3px 3px rgba(39, 209, 5, 0.5);
+}
+
+.main a {
+	display: block;
+	font-size: 13px; 
+	text-align: right;
+	margin: 10px 32px;
+	color: #1b7001;
+}
+
+.img {
+	display: flex;
+	order: 2;
+	flex-grow: 2;
+	background-image: url(wp7528738.jpg);
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	color: #eee;
+}
+
+.img span {
+	margin: auto;
+}
+
+.img span h1 {
+	font-size: 50px;
+	text-shadow: 0 0 10px #012e04;
+	
+}
+
+.img span p {
+	font-size: 20px;
+}
+
+
+

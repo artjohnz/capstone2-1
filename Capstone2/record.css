@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow: hidden; /* Remove scroll from the entire page */
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.sidebar {
+    width: 240px;
+    height: 100vh;
+    background: linear-gradient(90deg, #09c619, #07cb16, #05d113);
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: white;
+}
+.sidebar h1 {
+    color: #ffffff;
+    margin-bottom: 30px;
+    font-size: 36px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+.sidebar ul li {
+    margin: 20px 0;
+}
+.sidebar ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    padding: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+.sidebar li:hover {
+    background-color: #004e00; /* Darker green on hover */
+    color: #80FF80; /* Light green text on hover */
+}
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .main-content {
+        margin-left: 0;
+        padding: 20px;
+    }
+}
+#search-table-container {
+    margin-left: 250px; /* Adjust based on sidebar width */
+    padding: 20px;
+    flex-grow: 1;
+    height: calc(100vh - 100px); /* Adjust based on footer and header height */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#search-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+#search-bar {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.table-container {
+    text-align: center;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 40px; /* Ensure buttons are fully visible */
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: rgba(71,222,134,0.95);
+    -webkit-backdrop-filter: blur(18px);
+    backdrop-filter: blur(18px);
+    border: 1px solid rgba(71,222,134,0.475);
+    -webkit-box-shadow: 3px 3px 10px 3px #070707;
+    -moz-box-shadow: 3px 3px 10px 3px #070707;
+    box-shadow: 3px 3px 10px 3px #070707;
+}
+tr:hover {
+    background-color: #f1f1f1;
+}
+#waterLevelsTable th, #waterLevelsTable td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+#waterLevelsTable th {
+    background-color: #4CAF50;
+    color: white;
+}
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 20px; /* Add padding at the bottom to ensure buttons are fully visible */
+}
+.pagination button {
+    padding: 10px 15px;
+    margin: 0 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.pagination button:hover {
+    background-color: #45a049;
+}
+.pagination button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #2c5c16;
+    color: white;
+    font-size: 14px;
+    position: fixed;
+    bottom: 0;
+    width: calc(100% - 240px); /* Subtract the width of the sidebar */
+    margin-left: 240px; /* Ensure it lines up correctly with the main content */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

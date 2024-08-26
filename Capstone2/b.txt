@@ -1,0 +1,25 @@
+https://developers.arcgis.com/javascript/latest/sample-code/custom-render-node-xfade/
+https://www.magicpattern.design/tools/gradient-generator
+uiverse io- template 
+https://whatdoesthiscodedo.com/-explain code 
+//
+shadows.brumm.af
+https://www.facebook.com/reel/666359242133181-website for mysql
+fontawesome.com/v5/cheatsheet-for icon
+iconer.app/iconicons/
+pixcap.com/explore/packs
+getwaves.io
+michalsnik.github.io/aos
+undraw.co/illustrations-picture medyo 3d
+-pwde sa mga buttons effectlarsenwork.com/easing-gradients/
+csshero.org/mesher/
+adobe xd
+hostting///000webhost
+wixstudio
+zzz code ai
+https://studio.mapbox.com/
+iNlKMazz5F785Ph
+ <script src='https://code.jquery.com/jquery-3.5.1.slim.min.js'></script>
+ <script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js'></script>
+  <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js'></script
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
